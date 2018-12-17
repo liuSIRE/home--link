@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/font/fonts/demo.css">
+    <link rel="stylesheet" href="./assets/font/fonts/iconfont.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<!--登录页面开始-->
+     <div class="over-bg">
+         <div class="login">
+             <form action="">
+             <span class="login-close">X</span>
+          <h1>手机快捷登录</h1>
+             <p>别担心，无账号自动注册不会导致手机号被泄露</p>
+             <div class="login-write">
+                 <div style="margin-top: 30px"><input type="text" class="phone" placeholder="请输入手机号"></div>
+                 <div><input type="text" class="yannumber" placeholder="请输入验证码">
+                 <img src="./assets/images/show/yannumber.png" alt=""></div>
+                 <div><input type="text" class="number" placeholder="请输入短信验证码">
+                 <span>获取验证码</span>
+                 </div>
+
+             </div>
+             <h2>请填写正确手机号</h2><span class="login-error-yan">验证码格式错误</span>
+             <h3><i class="active5"></i>7天内免登录</h3>
+             <button type="submit">登录</button>
+             <h5>账号密码登录</h5>
+             </form>
+         </div>
+         <div class="pass-login">
+             <form action="">
+             <span class="pass-login-close">X</span>
+            <h1>账号密码登录</h1>
+             <div style="margin-top: 40px"><input type="text" class="pass-phone" placeholder="请输入手机号"></div>
+             <div><input type="password" placeholder="请输入登录密码" class="login-pass"><i></i></div>
+             <div><input type="text" placeholder="请输入验证码" class="login-number"><img src="./assets/images/show/pass-yan.png" alt=""></div>
+             <h2>请输入正确手机号</h2><span class="pass-login-yan">密码格式错误</span><br><span class="login-yanzheng">验证码错误</span>
+             <h3><i></i>七天内免登陆<span>忘记密码</span></h3>
+             <button type="submit">登录</button>
+             <h5>手机快捷登录</h5>
+             </form>
+         </div>
+     </div>
+<!--登录页面结束-->
+<!--注册页面开始-->
+<div class="reg-bg">
+   <div class="reg">
+       <span class="reg-close">X</span>
+       <form action="">
+       <div class="reg-top">
+           手机号码注册
+           <span>已有账号？<a href="javascript:;">去登陆</a></span>
+       </div>
+       <div class="reg-content">
+           <div><input type="text" class="reg-phone" placeholder="请输入手机号"></div>
+           <div><input type="text" class="reg-yan" placeholder="请输入验证码"><img src="./assets/images/show/yannumber.png" alt=""></div>
+           <div><input type="text" class="reg-phone-yan" placeholder="请输入短信验证码"><span>获取验证码</span></div>
+            <div><input type="password" class="reg-pass" placeholder="请输入密码（最少八位数字加字母）"><i></i></div>
+       </div>
+           <h1>请输入正确手机号</h1>
+           <h2>验证码格式错误</h2>
+           <h3>验证码错误</h3>
+           <h4>密码格式错误</h4>
+           <p class="seven"><i></i>我已阅读并同意<span>《链家用户使用协议》</span></p>
+           <button type="submit">注册</button>
+       </form>
+   </div>
+</div>
+<!--顶部开始-->
+<div class="zhe-city">
+   <div class="city-list">
+       <div class="city-list-top">选择城市<p>热门城市：</p><a href="">北京</a><a href="">上海</a><a href="">深圳</a></div>
+       <div class="city-content-left">
+           <span class="close-city"></span>
+        <ul class="city-left">
+            <li><span>B</span><a href="">北京</a><a href="">保亭</a></li>
+            <li><span>C</span><a href="">成都</a><a href="">重庆</a><a href="">长沙</a></li>
+            <li><span>D</span><a href="">大理</a><a href="">东莞</a><a href="">大连</a></li>
+            <li><span>F</span><a href="">佛山</a></li>
+            <li><span>G</span><a href="">广州</a></li>
+            <li><span>H</span><a href="">杭州</a><a href="">惠州</a><a href="">海口</a><a href="">合肥</a></li>
+            <li><span>K</span><a href="">昆明</a></li>
+            <li><span>J</span><a href="">济南</a></li>
+        </ul>
+        <ul class="city-right">
+            <li><span>L</span><a href="">陵水</a><a href="">廊坊</a><a href="">乐高</a></li>
+            <li><span>N</span><a href="">南京</a></li>
+            <li><span>Q</span><a href="">青岛</a><a href="">琼海</a><a href="">琼中</a></li>
+            <li><span>S</span><a href="">上海</a><a href="">石家庄</a><a href="">沈阳</a><a href="">三亚</a></li>
+            <li><span>T</span><a href="">天津</a><a href="">太原</a></li>
+            <li><span>W</span><a href="">武汉</a><a href="">无锡</a><a href="">万宁</a><a href="">五指山</a></li>
+            <li><span>X</span><a href="">厦门</a><a href="">西安</a><a href="">西双版纳</a></li>
+            <li><span>Y</span><a href="">烟台</a></li>
+            <li><span>Z</span><a href="">中山</a></li>
+        </ul>
+    </div>
+   </div>
+</div>
+<div class="top">
+    <div class="header">
+        <div class="fl">
+            <a href="" class="logo"></a>
+            <a class="fl-dw"><i class="iconfont icon-location"></i> 北京</a>
+        </div>
+        <ul class="menu-top">
+            <li><a class="zhucea" style="cursor: pointer">立即注册</a></li>
+            <li><a  class="denglu"style="cursor: pointer">登录</a></li>
+            <li><i class="iconfont icon-iconfontfuka"></i></li>
+        </ul>
+        <!--顶部导航栏开始-->
+        <ul class="menu-right">
+            <li><a href=
+                           ""><i class="iconfont icon-favorite"> </i>发布房源</a></li>
+            <li class="zhin">
+                <a href="">经验</a>
+                <div class="zhin-div">
+                    <a href="">购房经验</a>
+                    <a href="">我要投稿</a>
+                </div>
+            </li>
+            <li><a href="">租房</a></li>
+            <li><a href="">工具</a></li>
+            <li><a href="">房价</a></li>
+            <li class="zhin">
+                <a href="">指南</a>
+                <div class="zhin-div">
+                    <a href="">问答</a>
+                    <a href="">百科</a>
+                </div>
+            </li>
+            <li><a href="">经纪人</a></li>
+            <li><a href="">小区</a></li>
+            <li><a href="">海外</a></li>
+            <li><img src="./assets/images/index/lianjietu.png" alt=""><a href="" class="lvju">旅居</a></li>
+            <li><a href="">新房</a></li>
+            <li><a href="">二手房</a></li>
+        </ul>
+        <!--顶部导航栏结束-->
+        <!--顶部主体内容开始-->
+        <div class="header-center"></div>
+        <ul class="center-carousel">
+            <div class="beijing ">
+            <li>北京链家真实在售二手房 29213 套</li>
+            <li>北京链家真实租房 8571 套</li>
+            <li>北京链家在售新房楼盘 463 个</li>
+            </div>
+        </ul>
+        <div class="drop">
+        <ul class="search-box-con">
+            <li class="a">找二手房</li>
+            <li>找新房</li>
+            <li>找租房</li>
+            <li>找小区</li>
+            <li>搜问答</li>
+            <input class="keyword-box" type="text" placeholder="请输入区域，商圈或小区名开始找房">
+            <input class="findHouse" type="button" value="开始找房"></input>
+            <span class="sanj"></span>
+        </ul>
+            <div class="drop-list">
+                <ul>
+                    <li><p>热门搜索</p></li>
+                    <li style="margin-top: 10px"><a href="javascript:;">新龙城</a></li>
+                    <li><a href="javascript:;">天通苑</a></li>
+                    <li><a href="javascript:;">北京新天地</a></li>
+                    <li><a href="javascript:;">远洋山水</a></li>
+                    <li><a href="javascript:;">望京</a></li>
+                    <li><a href="javascript:;">北京像素</a></li>
+                    <li><a href="javascript:;">草房站附近的房源</a></li>
+                    <li><a href="javascript:;">13号线地铁</a></li>
+                </ul>
+            </div>
+            <div class="drop-list1">
+                <p>推荐搜索</p>
+            </div>
+            <div class="drop-list2">
+                <ul class="sear-list">
+                    <li ><p>热门搜索</p></li>
+                    <li style="margin-top: 10px"><a href="javascript:;">北京像素</a></li>
+                    <li><a href="javascript:;">回龙观</a></li>
+                    <li><a href="javascript:;">牡丹园</a></li>
+                    <li><a href="javascript:;">清河</a></li>
+                    <li><a href="javascript:;">天通苑</a></li>
+                    <li><a href="javascript:;">青年路</a></li>
+                </ul>
+            </div>
+            <div class="drop-list3">
+                <ul class="sear-list">
+                    <li><p>热门搜索</p></li>
+                    <li style="margin-top: 10px"><a href="javascript:;">北苑家园望春园</a></li>
+                    <li><a href="javascript:;">后现代城</a></li>
+                    <li><a href="javascript:;">荣丰2008</a></li>
+                    <li><a href="javascript:;">天通西苑三区</a></li>
+                    <li><a href="javascript:;">苹果社区</a></li>
+                    <li><a href="javascript:;">华贸城</a></li>
+                    <li><a href="javascript:;">天通苑中苑</a></li>
+                    <li><a href="javascript:;">北京新天地</a></li>
+                </ul>
+            </div>
+            <div class="drop-list4">
+                <ul class="sear-list">
+                    <li><p>热门搜索</p></li>
+                    <li style="margin-top: 10px"><a href="javascript:;">税费计算</a></li>
+                    <li><a href="javascript:;">过户流程</a></li>
+                    <li><a href="javascript:;">购房建议</a></li>
+                    <li><a href="javascript:;">购房资质</a></li>
+                    <li><a href="javascript:;">住房公积金</a></li>
+                    <li><a href="javascript:;">二手房</a></li>
+                    <li><a href="javascript:;">贷款流程</a></li>
+                    <li><a href="javascript:;">房价行情</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap-video">
+            <a href=""><img src="./assets/images/index/top-button1.png" alt="">关于仿冒我公司进行不正当竞争行为的郑重声明</a>
+            <a href=""><img src="./assets/images/index/top-button2.png" alt="">房地产中介诚信服务承诺及保证书</a>
+        </div>
+    </div>
+</div>
+<!--顶部主体内容结束-->
+<!--顶部结束-->
+<!--中心部分开始-->
+<!--中心内容第一部分部分开始-->
+<div class="home-nav">
+    <a href=""><img src="./assets/images/index/center-top1.png" alt="">
+        <p>找二手房</p><span>真实二手房源，链家承诺真实在售所见即真</span></a>
+    <a href=""><img src="./assets/images/index/center-top2.png" alt="">
+        <p>地图找房</p><span>为您精准定位，位置周边配套设施一览无余</span></a>
+    <a href=""><img src="./assets/images/index/center-top3.png" alt="">
+        <p>房屋估价</p><span>基于海量成交数据，帮您合理定价预估市值</span></a>
+    <a href=""style="z-index: 10"><img src="./assets/images/index/center-top4.png" alt="">
+        <p>找地铁房</p><span>房源紧邻地铁站，交通出行更方便说走就走</span></a>
+</div>
+<!--中心内容第一部分结束-->
+<!--中心内容第二部分开始-->
+<div class="hand-lianjia">
+    <div class="hand-lianjia-content">
+        <div class="titles"></div>
+        <p class="text">集二手、新房、租房功能于一体，随时随地任性找房。IM匿名咨询让您放心，
+            消息动态推送让您省心，服务承诺让您安心，数据百科锦囊让您感受贴心漫漫找房路，我们努力为您想更多。</p>
+        <div class="phone-app">
+            <a href="" class="hand-lianjia-ios"></a>
+            <a href="" class="hand-lianjia-android"></a>
+            <p class=""></p>
+        </div>
+        <div class="phone-code"><img src="./assets/images/index/code.png" alt=""></div>
+    </div>
+</div>
+<!--中心第二部分结束-->
+<!--中心第三部分开始-->
+<div class="wrapper">
+    <div class="wrap-top">
+        <div class="wrap-name"></div>
+        <p>好房源那么多，我们为你精选，链家网会越来越懂你<a href="">更多北京二手房</a></p>
+    </div>
+    <div class="wrap-clear">
+       <ul class="wrap-house1">
+           <li><a href=""><img src="./assets/images/index/content-center1.jpg" alt=""></a>
+               <p class="house-p01">宁馨苑 电梯房 距离地铁8</p>
+               <p class="house-trips"><span>宁馨苑</span><span>2室1厅</span><span>103.19平米</span></p>
+               <b>300万</b>
+           </li>
+           <li style="margin-left: 45px"><a href=""><img src="./assets/images/index/content-center2.jpg" alt=""></a>
+           <p class="house-p01">宁馨苑 电梯房 距离地铁8</p>
+               <p class="house-trips"><span>宁馨苑</span><span>2室1厅</span><span>103.19平米</span></p>
+               <b>600万</b>
+           </li>
+           <li style="margin-left: 45px"><a href=""><img src="./assets/images/index/content-center3.jpg" alt=""></a>
+               <p class="house-p01">宁馨苑 电梯房 距离地铁8</p>
+               <p class="house-trips"><span>宁馨苑</span><span>2室1厅</span><span>103.19平米</span></p>
+               <b>1158万</b>
+           </li>
+           <li style="margin-left: 45px"><a href=""><img src="./assets/images/index/content-center4.jpg" alt=""></a>
+               <p class="house-p01">宁馨苑 电梯房 距离地铁8</p>
+               <p class="house-trips"><span>宁馨苑</span><span>2室1厅</span><span>103.19平米</span></p>
+               <b>620万</b>
+           </li>
+       </ul>
+        <ul class="house-keng">
+            <li><a href="">链家网急售房源</a></li>
+            <li style="margin-left: 215px"><a href="">链家网急售房源</a></li>
+            <li style="margin-left: 215px"><a href="">链家网急售房源</a></li>
+            <li style="margin-left: 215px"><a href="">链家网急售房源</a></li>
+        </ul>
+    </div>
+</div>
+<!--第三部分结束-->
+<!--小区部分开始-->
+<div class="modxq">
+    <div class="wrapper-xq">
+        <div class="wrap-xq-top"></div>
+        <p class="xq-top-text">纵览小区，恋上这座城<a href="">更多北京小区</a></p>
+
+    <ul class="xiaoqulist">
+        <li class="xq-sublist"><a href="">
+            <img src="./assets/images/index/content-center5.jpg" alt=""></a>
+            <span>溪城家园</span><p><a href="" class="xiaoq-price" >46339元/平</a><a href="" class="xiaoq-time">2010年建</a></p>
+        </li>
+        <li class="xq-sublist" style="margin-left: 45px"><a href="">
+            <img src="./assets/images/index/content-center6.jpg" alt=""></a>
+            <span>溪城家园</span><p><a href="" class="xiaoq-price" >46339元/平</a><a href="" class="xiaoq-time">2010年建</a></p>
+        </li>
+        <li class="xq-sublist" style="margin-left: 45px"><a href="">
+            <img src="./assets/images/index/content-center7.jpg" alt=""></a>
+            <span>溪城家园</span><p><a class="xiaoq-price" href="">46339元/平</a><a href="" class="xiaoq-time">2010年建</a></p>
+        </li>
+    </ul>
+    </div>
+</div>
+<!--小区部分结束-->
+<!--新房部分开始-->
+<div class="wrapper-newhouse">
+<div class="new-house">
+    <div class="new-house-top"></div>
+    <p class="new-house-top-text">真实信息准确同步，楼盘动态一手掌握<a href="">更多北京新房</a></p>
+        <ul class="new-house-menu">
+            <li class="new-house-list"><a href=""><img src="./assets/images/index/xq-1.jpg" alt=""></a>
+                <div class="new-house-bg"></div>
+            <p class="new-house-img-text"><a href="">望都新地</a><br><br><span>43800</span>元/平</p>
+            </li>
+            <li class="new-house-list" style="margin-left: 45px">
+                <a href=""><img src="./assets/images/index/xq-2.jpg" alt=""></a>
+                <div class="new-house-bg"></div>
+                <p class="new-house-img-text"><a href="">领秀慧谷</a><br><br><span>43800</span>元/平</p>
+            </li>
+            <li class="new-house-list" style="margin-left: 45px">
+                <a href=""><img src="./assets/images/index/xq-3.jpg" alt=""></a>
+                <div class="new-house-bg"></div>
+                <p class="new-house-img-text"><a href="">通泰公馆</a><br><br><span>43800</span>元/平</p>
+            </li>
+        </ul>
+      </div>
+    </div>
+<!--新房部分结束-->
+<!--底部开始-->
+<div class="button">
+ <div class="wrapper-button">
+     <div class="button-truth"></div>
+     <div class="button-search">
+     <p>真实存在，真实在售，真实价格，真实图片！<br>
+         链家郑重向用户承诺：真实房源，假一赔百元！
+     </p>
+         <div class="button-search-inp">
+             <input type="text" class="button-input" placeholder="请输入链家编号查询真伪...">
+             <div class="button-inp-search"></div>
+         </div>
+     </div>
+ </div>
+</div>
+<!--页面底部结束-->
+<!--页脚开始-->
+<div class="footer">
+    <div class="footer-wrap">
+        <div class="footer-title">
+            <ul class="footer-title-list">
+                <li><a href="">了解链家</a></li>
+                <li><a href="">关于链家</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">加入我们</a></li>
+                <li><a href="">隐私声明</a></li>
+                <li><a href="">网站地图</a></li>
+                <li><a href="">友情链接</a></li>
+                <li><a href="">经纪人登录</a></li>
+            </ul>
+            <div class="footer-gf">官方客服 1010 9666</div>
+        </div>
+        <div class="foot-link-box">
+            <div class="foot-link-tab">
+                <span>城市二手房</span>
+                <span>商圈二手房</span>
+                <span>商圈租房</span>
+                <span>商圈小区</span>
+                <span>热门小区</span>
+                <span>小区二手房</span>
+                <span>小区租房</span>
+                <span>小区新房</span>
+                <span>百科</span>
+                <span>租房</span>
+                <span>小区</span>
+                <span>问答</span>
+                <span>房产专题</span>
+                <span>商圈房价</span>
+            </div>
+            <div class="footer-main">
+                <ul style="display: block">
+                    <li><a href="">北京二手房</a></li>
+                    <li><a href="">广州二手房</a></li>
+                    <li><a href="">深圳二手房</a></li>
+                    <li><a href="">成都二手房</a></li>
+                    <li><a href="">南昌二手房</a></li>
+                    <li><a href="">青岛二手房</a></li>
+                    <li><a href="">石家庄二手房</a></li>
+                    <li><a href="">北京二手房</a></li>
+                    <li><a href="">广州二手房</a></li>
+                    <li><a href="">深圳二手房</a></li>
+                    <li><a href="">成都二手房</a></li>
+                    <li><a href="">南昌二手房</a></li>
+                    <li><a href="">青岛二手房</a></li>
+                    <li><a href="">石家庄二手房</a></li>
+                    <li><a href="">北京二手房</a></li>
+                    <li><a href="">广州二手房</a></li>
+                    <li><a href="">深圳二手房</a></li>
+                    <li><a href="">成都二手房</a></li>
+                    <li><a href="">南昌二手房</a></li>
+                    <li><a href="">青岛二手房</a></li>
+                    <li><a href="">石家庄二手房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">百善镇二手房</a></li>
+                    <li><a href="">东城二手房</a></li>
+                    <li><a href="">东直门二手房</a></li>
+                    <li><a href="">商圈其他二手房</a></li>
+                    <li><a href="">昌平二手房</a></li>
+                    <li><a href="">草桥二手房</a></li>
+                    <li><a href="">潘家园二手房</a></li>
+                    <li><a href="">和平里二手房</a></li>
+                    <li><a href="">百善镇二手房</a></li>
+                    <li><a href="">东城二手房</a></li>
+                    <li><a href="">东直门二手房</a></li>
+                    <li><a href="">商圈其他二手房</a></li>
+                    <li><a href="">昌平二手房</a></li>
+                    <li><a href="">草桥二手房</a></li>
+                    <li><a href="">潘家园二手房</a></li>
+                    <li><a href="">和平里二手房</a></li>
+                    <li><a href="">百善镇二手房</a></li>
+                    <li><a href="">东城二手房</a></li>
+                    <li><a href="">东直门二手房</a></li>
+                    <li><a href="">商圈其他二手房</a></li>
+                    <li><a href="">昌平二手房</a></li>
+                    <li><a href="">草桥二手房</a></li>
+                    <li><a href="">潘家园二手房</a></li>
+                    <li><a href="">和平里二手房</a></li>
+                    <li><a href="">百善镇二手房</a></li>
+                    <li><a href="">东城二手房</a></li>
+                    <li><a href="">东直门二手房</a></li>
+                    <li><a href="">商圈其他二手房</a></li>
+                    <li><a href="">昌平二手房</a></li>
+                    <li><a href="">草桥二手房</a></li>
+                    <li><a href="">潘家园二手房</a></li>
+                    <li><a href="">和平里二手房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">海淀租房</a></li>
+                    <li><a href="">延庆租房</a></li>
+                    <li><a href="">奥林匹克公园租房</a></li>
+                    <li><a href="">CBD租房</a></li>
+                    <li><a href="">天通苑租房</a></li>
+                    <li><a href="">朝阳公园租房</a></li>
+                    <li><a href="">顺义租房</a></li>
+                    <li><a href="">东华大街租房</a></li>
+                    <li><a href="">地安门租房</a></li>
+                    <li><a href="">海淀租房</a></li>
+                    <li><a href="">延庆租房</a></li>
+                    <li><a href="">奥林匹克公园租房</a></li>
+                    <li><a href="">CBD租房</a></li>
+                    <li><a href="">天通苑租房</a></li>
+                    <li><a href="">朝阳公园租房</a></li>
+                    <li><a href="">顺义租房</a></li>
+                    <li><a href="">东华大街租房</a></li>
+                    <li><a href="">地安门租房</a></li>
+                    <li><a href="">海淀租房</a></li>
+                    <li><a href="">延庆租房</a></li>
+                    <li><a href="">奥林匹克公园租房</a></li>
+                    <li><a href="">CBD租房</a></li>
+                    <li><a href="">天通苑租房</a></li>
+                    <li><a href="">朝阳公园租房</a></li>
+                    <li><a href="">顺义租房</a></li>
+                    <li><a href="">东华大街租房</a></li>
+                    <li><a href="">地安门租房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">海淀小区</a></li>
+                    <li><a href="">乔庄小区</a></li>
+                    <li><a href="">CBD小区</a></li>
+                    <li><a href="">天宫院小区</a></li>
+                    <li><a href="">十里堡小区</a></li>
+                    <li><a href="">青年路小区</a></li>
+                    <li><a href="">团结湖小区</a></li>
+                    <li><a href="">新华大街小区</a></li>
+                    <li><a href="">顺义小区</a></li>
+                    <li><a href="">芍药居小区</a></li>
+                    <li><a href="">海淀小区</a></li>
+                    <li><a href="">乔庄小区</a></li>
+                    <li><a href="">CBD小区</a></li>
+                    <li><a href="">天宫院小区</a></li>
+                    <li><a href="">十里堡小区</a></li>
+                    <li><a href="">青年路小区</a></li>
+                    <li><a href="">团结湖小区</a></li>
+                    <li><a href="">新华大街小区</a></li>
+                    <li><a href="">顺义小区</a></li>
+                    <li><a href="">芍药居小区</a></li>
+                    <li><a href="">海淀小区</a></li>
+                    <li><a href="">乔庄小区</a></li>
+                    <li><a href="">CBD小区</a></li>
+                    <li><a href="">天宫院小区</a></li>
+                    <li><a href="">十里堡小区</a></li>
+                    <li><a href="">青年路小区</a></li>
+                    <li><a href="">团结湖小区</a></li>
+                    <li><a href="">新华大街小区</a></li>
+                    <li><a href="">顺义小区</a></li>
+                    <li><a href="">芍药居小区</a></li>
+                    <li><a href="">海淀小区</a></li>
+                    <li><a href="">乔庄小区</a></li>
+                    <li><a href="">CBD小区</a></li>
+                    <li><a href="">天宫院小区</a></li>
+                    <li><a href="">十里堡小区</a></li>
+                    <li><a href="">青年路小区</a></li>
+                    <li><a href="">团结湖小区</a></li>
+                    <li><a href="">新华大街小区</a></li>
+                    <li><a href="">顺义小区</a></li>
+                    <li><a href="">芍药居小区</a></li>
+                    <li><a href="">海淀小区</a></li>
+                    <li><a href="">乔庄小区</a></li>
+                    <li><a href="">CBD小区</a></li>
+                    <li><a href="">天宫院小区</a></li>
+                    <li><a href="">十里堡小区</a></li>
+                    <li><a href="">青年路小区</a></li>
+                    <li><a href="">团结湖小区</a></li>
+                    <li><a href="">新华大街小区</a></li>
+                    <li><a href="">顺义小区</a></li>
+                    <li><a href="">芍药居小区</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">朝阳杰座</a></li>
+                    <li><a href="">下甸</a></li>
+                    <li><a href="">团结湖公寓</a></li>
+                    <li><a href="">呼家楼北街</a></li>
+                    <li><a href="">枫林绿洲</a></li>
+                    <li><a href="">雪芳园</a></li>
+                    <li><a href="">水利局小区</a></li>
+                    <li><a href="">常青藤三期</a></li>
+                    <li><a href="">嘉德公寓</a></li>
+                    <li><a href="">永定路一号院</a></li>
+                    <li><a href="">朝阳杰座</a></li>
+                    <li><a href="">下甸</a></li>
+                    <li><a href="">团结湖公寓</a></li>
+                    <li><a href="">呼家楼北街</a></li>
+                    <li><a href="">枫林绿洲</a></li>
+                    <li><a href="">雪芳园</a></li>
+                    <li><a href="">水利局小区</a></li>
+                    <li><a href="">常青藤三期</a></li>
+                    <li><a href="">嘉德公寓</a></li>
+                    <li><a href="">永定路一号院</a></li>
+                    <li><a href="">朝阳杰座</a></li>
+                    <li><a href="">下甸</a></li>
+                    <li><a href="">团结湖公寓</a></li>
+                    <li><a href="">呼家楼北街</a></li>
+                    <li><a href="">枫林绿洲</a></li>
+                    <li><a href="">雪芳园</a></li>
+                    <li><a href="">水利局小区</a></li>
+                    <li><a href="">常青藤三期</a></li>
+                    <li><a href="">嘉德公寓</a></li>
+                    <li><a href="">永定路一号院</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">建国路100号二手房</a></li>
+                    <li><a href="">熙湖二手房</a></li>
+                    <li><a href="">呼家楼二手房</a></li>
+                    <li><a href="">团结湖公寓二手房</a></li>
+                    <li><a href="">常青藤三区二手房</a></li>
+                    <li><a href="">水利局小区二手房</a></li>
+                    <li><a href="">风铃绿洲二手房</a></li>
+                    <li><a href="">永定路二手房</a></li>
+                    <li><a href="">糖人街二手房</a></li>
+                    <li><a href="">建国路100号二手房</a></li>
+                    <li><a href="">熙湖二手房</a></li>
+                    <li><a href="">呼家楼二手房</a></li>
+                    <li><a href="">团结湖公寓二手房</a></li>
+                    <li><a href="">常青藤三区二手房</a></li>
+                    <li><a href="">水利局小区二手房</a></li>
+                    <li><a href="">风铃绿洲二手房</a></li>
+                    <li><a href="">永定路二手房</a></li>
+                    <li><a href="">糖人街二手房</a></li>
+                    <li><a href="">建国路100号二手房</a></li>
+                    <li><a href="">熙湖二手房</a></li>
+                    <li><a href="">呼家楼二手房</a></li>
+                    <li><a href="">团结湖公寓二手房</a></li>
+                    <li><a href="">常青藤三区二手房</a></li>
+                    <li><a href="">水利局小区二手房</a></li>
+                    <li><a href="">风铃绿洲二手房</a></li>
+                    <li><a href="">永定路二手房</a></li>
+                    <li><a href="">糖人街二手房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">下甸租房</a></li>
+                    <li><a href="">枫林绿洲租房</a></li>
+                    <li><a href="">朝阳杰作租房</a></li>
+                    <li><a href="">水利局小区租房</a></li>
+                    <li><a href="">顺义小区租房</a></li>
+                    <li><a href="">团结湖小区租房</a></li>
+                    <li><a href="">呼家楼北街租房</a></li>
+                    <li><a href="">青年路租房</a></li>
+                    <li><a href="">熙湖租房</a></li>
+                    <li><a href="">雪芳园租房</a></li>
+                    <li><a href="">下甸租房</a></li>
+                    <li><a href="">枫林绿洲租房</a></li>
+                    <li><a href="">朝阳杰作租房</a></li>
+                    <li><a href="">水利局小区租房</a></li>
+                    <li><a href="">顺义小区租房</a></li>
+                    <li><a href="">团结湖小区租房</a></li>
+                    <li><a href="">呼家楼北街租房</a></li>
+                    <li><a href="">青年路租房</a></li>
+                    <li><a href="">熙湖租房</a></li>
+                    <li><a href="">雪芳园租房</a></li>
+                    <li><a href="">下甸租房</a></li>
+                    <li><a href="">枫林绿洲租房</a></li>
+                    <li><a href="">朝阳杰作租房</a></li>
+                    <li><a href="">水利局小区租房</a></li>
+                    <li><a href="">顺义小区租房</a></li>
+                    <li><a href="">团结湖小区租房</a></li>
+                    <li><a href="">呼家楼北街租房</a></li>
+                    <li><a href="">青年路租房</a></li>
+                    <li><a href="">熙湖租房</a></li>
+                    <li><a href="">雪芳园租房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">丰台楼盘</a></li>
+                    <li><a href="">门头沟楼盘</a></li>
+                    <li><a href="">朝阳楼盘</a></li>
+                    <li><a href="">海淀楼盘</a></li>
+                    <li><a href="">昌平楼盘</a></li>
+                    <li><a href="">顺义楼盘</a></li>
+                    <li><a href="">石景山楼盘</a></li>
+                    <li><a href="">东城楼盘</a></li>
+                    <li><a href="">西城楼盘</a></li>
+                    <li><a href="">平谷楼盘</a></li>
+                    <li><a href="">丰台楼盘</a></li>
+                    <li><a href="">门头沟楼盘</a></li>
+                    <li><a href="">朝阳楼盘</a></li>
+                    <li><a href="">海淀楼盘</a></li>
+                    <li><a href="">昌平楼盘</a></li>
+                    <li><a href="">顺义楼盘</a></li>
+                    <li><a href="">石景山楼盘</a></li>
+                    <li><a href="">东城楼盘</a></li>
+                    <li><a href="">西城楼盘</a></li>
+                    <li><a href="">平谷楼盘</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">广州百科</a></li>
+                    <li><a href="">北京百科</a></li>
+                    <li><a href="">天津百科</a></li>
+                    <li><a href="">深圳百科</a></li>
+                    <li><a href="">成都百科</a></li>
+                    <li><a href="">南昌百科</a></li>
+                    <li><a href="">武汉百科</a></li>
+                    <li><a href="">青岛百科</a></li>
+                    <li><a href="">广州百科</a></li>
+                    <li><a href="">北京百科</a></li>
+                    <li><a href="">天津百科</a></li>
+                    <li><a href="">深圳百科</a></li>
+                    <li><a href="">成都百科</a></li>
+                    <li><a href="">南昌百科</a></li>
+                    <li><a href="">武汉百科</a></li>
+                    <li><a href="">青岛百科</a></li>
+                    <li><a href="">广州百科</a></li>
+                    <li><a href="">北京百科</a></li>
+                    <li><a href="">天津百科</a></li>
+                    <li><a href="">深圳百科</a></li>
+                    <li><a href="">成都百科</a></li>
+                    <li><a href="">南昌百科</a></li>
+                    <li><a href="">武汉百科</a></li>
+                    <li><a href="">青岛百科</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">青岛租房</a></li>
+                    <li><a href="">广州租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">天津租房</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">成都租房</a></li>
+                    <li><a href="">南昌租房</a></li>
+                    <li><a href="">武汉租房</a></li>
+                    <li><a href="">青岛租房</a></li>
+                    <li><a href="">青岛租房</a></li>
+                    <li><a href="">广州租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">天津租房</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">成都租房</a></li>
+                    <li><a href="">南昌租房</a></li>
+                    <li><a href="">武汉租房</a></li>
+                    <li><a href="">青岛租房</a></li>
+                    <li><a href="">青岛租房</a></li>
+                    <li><a href="">广州租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">天津租房</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">成都租房</a></li>
+                    <li><a href="">南昌租房</a></li>
+                    <li><a href="">武汉租房</a></li>
+                    <li><a href="">青岛租房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">北京小区二手房</a></li>
+                    <li><a href="">武汉小区二手房</a></li>
+                    <li><a href="">天津小区二手房</a></li>
+                    <li><a href="">厦门小区二手房</a></li>
+                    <li><a href="">上海小区二手房</a></li>
+                    <li><a href="">青岛小区二手房</a></li>
+                    <li><a href="">石家庄小区二手房</a></li>
+                    <li><a href="">珠海小区二手房</a></li>
+                    <li><a href="">北京小区二手房</a></li>
+                    <li><a href="">武汉小区二手房</a></li>
+                    <li><a href="">天津小区二手房</a></li>
+                    <li><a href="">厦门小区二手房</a></li>
+                    <li><a href="">上海小区二手房</a></li>
+                    <li><a href="">青岛小区二手房</a></li>
+                    <li><a href="">石家庄小区二手房</a></li>
+                    <li><a href="">珠海小区二手房</a></li>
+                    <li><a href="">北京小区二手房</a></li>
+                    <li><a href="">武汉小区二手房</a></li>
+                    <li><a href="">天津小区二手房</a></li>
+                    <li><a href="">厦门小区二手房</a></li>
+                    <li><a href="">上海小区二手房</a></li>
+                    <li><a href="">青岛小区二手房</a></li>
+                    <li><a href="">石家庄小区二手房</a></li>
+                    <li><a href="">珠海小区二手房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">北京问答</a></li>
+                    <li><a href="">天津问答</a></li>
+                    <li><a href="">武汉问答</a></li>
+                    <li><a href="">青岛问答</a></li>
+                    <li><a href="">石家庄问答</a></li>
+                    <li><a href="">厦门问答</a></li>
+                    <li><a href="">珠海问答</a></li>
+                    <li><a href="">北京问答</a></li>
+                    <li><a href="">天津问答</a></li>
+                    <li><a href="">武汉问答</a></li>
+                    <li><a href="">青岛问答</a></li>
+                    <li><a href="">石家庄问答</a></li>
+                    <li><a href="">厦门问答</a></li>
+                    <li><a href="">珠海问答</a></li>
+                    <li><a href="">北京问答</a></li>
+                    <li><a href="">天津问答</a></li>
+                    <li><a href="">武汉问答</a></li>
+                    <li><a href="">青岛问答</a></li>
+                    <li><a href="">石家庄问答</a></li>
+                    <li><a href="">厦门问答</a></li>
+                    <li><a href="">珠海问答</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">延庆二手房</a></li>
+                    <li><a href="">望京二手房</a></li>
+                    <li><a href="">颐和园二手房</a></li>
+                    <li><a href="">乔庄二手房</a></li>
+                    <li><a href="">东大桥二手房</a></li>
+                    <li><a href="">良乡二手房</a></li>
+                    <li><a href="">四季青二手房</a></li>
+                    <li><a href="">鼓楼大街二手房</a></li>
+                    <li><a href="">延庆二手房</a></li>
+                    <li><a href="">望京二手房</a></li>
+                    <li><a href="">颐和园二手房</a></li>
+                    <li><a href="">乔庄二手房</a></li>
+                    <li><a href="">东大桥二手房</a></li>
+                    <li><a href="">良乡二手房</a></li>
+                    <li><a href="">四季青二手房</a></li>
+                    <li><a href="">鼓楼大街二手房</a></li>
+                    <li><a href="">延庆二手房</a></li>
+                    <li><a href="">望京二手房</a></li>
+                    <li><a href="">颐和园二手房</a></li>
+                    <li><a href="">乔庄二手房</a></li>
+                    <li><a href="">东大桥二手房</a></li>
+                    <li><a href="">良乡二手房</a></li>
+                    <li><a href="">四季青二手房</a></li>
+                    <li><a href="">鼓楼大街二手房</a></li>
+                    <li><a href="">延庆二手房</a></li>
+                    <li><a href="">望京二手房</a></li>
+                    <li><a href="">颐和园二手房</a></li>
+                    <li><a href="">乔庄二手房</a></li>
+                    <li><a href="">东大桥二手房</a></li>
+                    <li><a href="">良乡二手房</a></li>
+                    <li><a href="">四季青二手房</a></li>
+                    <li><a href="">鼓楼大街二手房</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">东直门房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">建国门房价</a></li>
+                    <li><a href="">中关村房价</a></li>
+                    <li><a href="">和平里房价</a></li>
+                    <li><a href="">工体房价</a></li>
+                    <li><a href="">学院路房价</a></li>
+                    <li><a href="">亚运村房价</a></li>
+                    <li><a href="">延庆房价</a></li>
+                    <li><a href="">东直门房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">建国门房价</a></li>
+                    <li><a href="">中关村房价</a></li>
+                    <li><a href="">和平里房价</a></li>
+                    <li><a href="">工体房价</a></li>
+                    <li><a href="">学院路房价</a></li>
+                    <li><a href="">亚运村房价</a></li>
+                    <li><a href="">延庆房价</a></li>
+                    <li><a href="">东直门房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">昌平房价</a></li>
+                    <li><a href="">建国门房价</a></li>
+                    <li><a href="">中关村房价</a></li>
+                    <li><a href="">和平里房价</a></li>
+                    <li><a href="">工体房价</a></li>
+                    <li><a href="">学院路房价</a></li>
+                    <li><a href="">亚运村房价</a></li>
+                    <li><a href="">延庆房价</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">上海租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">中国地图</a></li>
+                    <li><a href="">北京房产百科</a></li>
+                    <li><a href="">装修网</a></li>
+                    <li><a href="">中国建材网</a></li>
+                    <li><a href="">上海房产</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">上海租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">中国地图</a></li>
+                    <li><a href="">北京房产百科</a></li>
+                    <li><a href="">装修网</a></li>
+                    <li><a href="">中国建材网</a></li>
+                    <li><a href="">上海房产</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">上海租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">中国地图</a></li>
+                    <li><a href="">北京房产百科</a></li>
+                    <li><a href="">装修网</a></li>
+                    <li><a href="">中国建材网</a></li>
+                    <li><a href="">上海房产</a></li>
+                    <li><a href="">深圳租房</a></li>
+                    <li><a href="">上海租房</a></li>
+                    <li><a href="">北京租房</a></li>
+                    <li><a href="">中国地图</a></li>
+                    <li><a href="">北京房产百科</a></li>
+                    <li><a href="">装修网</a></li>
+                    <li><a href="">中国建材网</a></li>
+                    <li><a href="">上海房产</a></li>
+                </ul>
+            </div>
+            <div class="footer-zf">链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2
+                | © Copyright©2010-2018 链家网Lianjia.com版权所有
+                <p><a href=""><img src="./assets/images/index/beian.png" alt="">京公网安备 11010802024019号</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部页脚结束-->
+<!--左侧导航栏开始-->
+<div class="nav-left">
+    <div class="nav-menu">
+        <a href="" class="daik">
+            <div class="daik-list">
+                <div class="daik-sublist">待看清单
+                    <span>一次性可以选择多套房源预约待看</span></div>
+            </div>
+        </a>
+        <a href="" class="guanz">
+        <div class="guanz-list">我关注的房源</div>
+        </a>
+        <a href="" class="duib">
+            <div class="duib-list"><img src="./assets/images/index/left_cart.png" alt="">
+                <p>暂无对比房源</p><br><span>去选房 ></span>
+            </div>
+        </a>
+        <a href="" class="maif">
+            <div class="maif-list">在线卖房</div>
+        </a>
+        <a href="" class="gongj">
+            <div class="gongj-list">房贷计算器</div>
+        </a>
+        <a href="" class="baod">
+            <div class="baod-list">安心保单</div>
+        </a>
+        <a href="" class="code">
+            <div class="code-list"><img src="./assets/images/index/code-left.png" alt="">
+            <p>链家APP</p>
+            </div>
+        </a>
+        <a href="" class="kef">
+            <div class="kef-list">在线客服</div>
+        </a>
+        <a href="" class="dianh">
+            <div class="dianh-list">开通免电话营销</div>
+        </a>
+        <a href="" class="fank">
+            <div class="fank-list">反馈/投诉</div>
+        </a>
+        <a class="dingb" style="display: none">
+            <div class="dingb-list">回到顶部</div>
+        </a>
+    </div>
+</div>
+<!--左侧导航栏结束-->
+<!--底部固定栏开始-->
+<div class="fix-footer">
+    <div class="app-content">
+        <img class="iphone"src="./assets/images/index/iphone.png" alt="">
+        <div class="footer-text"><p>扫描下载链家APP</p>
+            <span>随时随地查看新上房源</span>
+        </div>
+        <img class="footer-code"src="./assets/images/index/code-left.png" alt="">
+        <a class="footer-close"><img src="./assets/images/index/icon-close.png" alt=""></a>
+    </div>
+</div>
+<!--底部固定栏结束-->
+<!--底部在线客服开始-->
+<div class="online">
+    <div class="online-top">
+        <span class="on-title">在线咨询</span>
+        <i class="on-close" style="display: none"></i>
+    </div>
+    <!--底部-->
+    <div class="online-bottom">
+        <!--底部上方-->
+        <div class="onb-top">
+            <div class="onb-left">
+                <img src="assets/images/index/icon_serv@2xV2.png" alt="">
+            </div>
+            <div class="onb-right">
+                <span class="top-top">链家帮帮</span>
+                <span class="top-bottom">链家官方人工客服</span>
+            </div>
+        </div>
+        <!--底部下方-->
+        <div class="onb-bottom">
+            <div class="bottom-bot">没有聊过的经纪人</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
